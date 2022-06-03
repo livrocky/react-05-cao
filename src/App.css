@@ -1,0 +1,27 @@
+.todoList {
+    border: 1px solid black;
+    padding: 20px;
+}
+p {
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input#task{
+    width: 95%;
+}
+
+.taskDisplay{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-times-circle:before {
+    font-size: 25px;
+}
